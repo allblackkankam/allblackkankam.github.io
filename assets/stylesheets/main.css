@@ -1,0 +1,198 @@
+/*......................................
+		BODY
+....................................*/
+html, body {
+	margin:0;
+	background: #605c55;
+	background-image:url(img/k.jpg);
+	height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*position: fixed;*/
+  
+}
+
+/*.......................................
+SPECIAL
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*.start,.bottoms,.socail{
+	box-shadow: 10px 30px 50px white;*/
+/*}*/
+
+/*.......................................
+	START SECTION
+......................................*/
+
+h1,h2, h3,p {
+	margin: 0;
+}
+.start{
+	padding-top: 10px;
+	text-align: center;
+	width: 60%;
+	margin-top: 25%;
+
+}
+.start h1{
+	font-size: 50px;
+	color:white;
+	font-family: Constantia,"Blood Omen",Arial, sans-serif;
+
+
+}
+.start h2{
+	font-size: 40px;
+	line-height: 60px;
+	text-transform: capitalize;
+	color: #ffa200;
+	text-align:left;
+	margin-left: 19%;
+	margin-bottom: 20px;
+}
+h3 span{
+	background:#ffa200;
+	color: black;
+}
+/*........................................
+	BOTTON SECTION
+.........................................*/
+.bottoms{
+	text-align: left;
+	/*background: rgba(240,240,240,0.1);*/
+	width: 60%;
+	/*margin:0 auto;*/
+	padding-bottom: 10px;
+	word-spacing: 50px;
+	margin-left: 12%;
+}
+.bottoms a{
+	font-size: 40px;
+	padding: 10px 10px;
+	border: 2px solid gold;
+	text-decoration:none;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top:10px;
+	background:#ffa200;
+	color: black;
+}
+.bottoms a:hover{
+	box-shadow:inset 2px 2px 20px black;
+}
+
+/*..............................................
+SOCIAL SECTION
+..............................................*/
+.social{
+	text-align: left;
+	width: 60%;
+	padding: 15px 0;
+	margin-left: 11%;
+	margin-bottom: 10%;
+}
+.social a {
+	color: white;
+	font-size: 50px;
+	padding: 20px;
+}
+.social a :hover{
+	color:#ffa200;
+}
+
+/*.............................................
+HEAD SECTION
+.............................................*/
+.head{
+	text-align: center;
+	background:#ffa200;
+
+}
+.head h1{
+	font-size: 50px;
+	
+	border-radius: 5px;
+	display: inline-block;
+	
+	color: black;
+}
+/*...............................................
+MESSAGE SECTION
+..............................................*/
+
+.msg{
+	padding-top: 10px;
+	text-align: center;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.6);
+	margin-bottom: 20%;
+}
+p{
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	font-size: 25px;
+	color: #a07d41;
+	font-weight: 200;
+	font-family: Consolas,Arial, sans-serif;
+	text-indent: 30px;
+	padding: 36px;
+}
+.msg  span {
+	background:#ffa200;
+	color: black;
+	font-style: none;
+}
+/*...............................................
+CONTACT PAGE
+...............................................*/
+.contact{
+	padding-top: 10px;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+}
+.contact p{
+	width: 60%;
+	margin: 0 auto;
+	font-size: 30px;
+	color: #a07d41;
+	font-weight: 200;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-family: Consolas,Arial, sans-serif;
+	text-transform: capitalize;
+	line-height: 40px;
+}
+.contact p a{
+	font-size: 30px;
+	border: 2px solid gold;
+	text-decoration:none;
+	border-radius: 5px;
+	background:#ffa200;
+	color: black;
+
+}
+.contact p a:hover{
+	box-shadow:inset 2px 2px 20px black;
+}
+.contact span {
+	background:#ffa200;
+	color: black;
+	font-style: none;
+}
+/*...............................................
+FOOTER 
+...............................................*/
+footer{
+	text-align: center;
+	background:#ffa200;
+
+}
+footer small{
+	font-size: 15px;
+	color: black;
+	letter-spacing: 2px;
+}
+
