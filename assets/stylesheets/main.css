@@ -1,47 +1,84 @@
+/*...........................................
+RESET
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+ol,ul,li{
+	list-style: none;
+}
+h1,h2, h3,p,ul {
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+
 /*......................................
 		BODY
 ....................................*/
 html, body {
 	margin:0;
-	background: #605c55;
-	background-image:url(img/k.jpg);
+	background: #fff;
+	
+}
+/*.......................................
+NAV
+.........................................*/
+.navigator{
+	background: #ffa200;
+	text-align: right;
+	padding-right: 10%;
+	padding-bottom: 20px;
+	box-shadow: 1px 0px 10px black;
+	position: fixed;
+	width: 100%;
+
+}
+.navigator ul {
+	
+	font: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+	font-size: 20px;
+	font-weight: 900;
+	margin-right: 8%;
+	padding: 0;  
+	
+
+}
+.navigator li {
+	display: inline-block;
+	margin-top: 20px;
+}
+.navigator a {  
+color:rgba(0, 0, 0, 0.8); 
+padding: 12px 20px;
+padding-bottom: 40px;
+}
+.navigator a:hover {  
+color: white;  
+/*.......................................
+	START SECTION
+......................................*/
+}
+.hero{
+	background-image:url(img/p.jpg);
 	height: 100%;
-    background-attachment: fixed;
+    background-attachment: top-fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /*position: fixed;*/
-  
-}
-
-/*.......................................
-SPECIAL
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/*.start,.bottoms,.socail{
-	box-shadow: 10px 30px 50px white;*/
-/*}*/
-
-/*.......................................
-	START SECTION
-......................................*/
-
-h1,h2, h3,p {
-	margin: 0;
+    padding-bottom: 2%;
+    box-shadow: 2px 10px 10px #de9d9d;
 }
 .start{
 	padding-top: 10px;
 	text-align: center;
 	width: 60%;
-	margin-top: 25%;
-
 }
 .start h1{
 	font-size: 50px;
 	color:white;
 	font-family: Constantia,"Blood Omen",Arial, sans-serif;
-
-
+	margin-top: 45%;
+	text-shadow:1px 2px 3px black;
 }
 .start h2{
 	font-size: 40px;
@@ -51,38 +88,8 @@ h1,h2, h3,p {
 	text-align:left;
 	margin-left: 19%;
 	margin-bottom: 20px;
+	text-shadow:1px 2px 3px black;
 }
-h3 span{
-	background:#ffa200;
-	color: black;
-}
-/*........................................
-	BOTTON SECTION
-.........................................*/
-.bottoms{
-	text-align: left;
-	/*background: rgba(240,240,240,0.1);*/
-	width: 60%;
-	/*margin:0 auto;*/
-	padding-bottom: 10px;
-	word-spacing: 50px;
-	margin-left: 12%;
-}
-.bottoms a{
-	font-size: 40px;
-	padding: 10px 10px;
-	border: 2px solid gold;
-	text-decoration:none;
-	border-radius: 5px;
-	display: inline-block;
-	margin-top:10px;
-	background:#ffa200;
-	color: black;
-}
-.bottoms a:hover{
-	box-shadow:inset 2px 2px 20px black;
-}
-
 /*..............................................
 SOCIAL SECTION
 ..............................................*/
@@ -91,108 +98,179 @@ SOCIAL SECTION
 	width: 60%;
 	padding: 15px 0;
 	margin-left: 11%;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 .social a {
 	color: white;
 	font-size: 50px;
 	padding: 20px;
+	text-shadow:1px 2px 3px black;
 }
 .social a :hover{
 	color:#ffa200;
 }
-
-/*.............................................
-HEAD SECTION
-.............................................*/
-.head{
-	text-align: center;
-	background:#ffa200;
-
-}
-.head h1{
-	font-size: 50px;
-	
-	border-radius: 5px;
-	display: inline-block;
-	
-	color: black;
-}
 /*...............................................
-MESSAGE SECTION
+ABOUT
 ..............................................*/
 
 .msg{
-	padding-top: 10px;
+	padding-top: 5%;
 	text-align: center;
 	margin: 0 auto;
-	background: rgba(0,0,0,0.6);
-	margin-bottom: 20%;
+	width: 100%;
 }
-p{
-	text-align: center;
-	width: 60%;
+.about{
+	width: 80%;
 	margin: 0 auto;
-	font-size: 25px;
-	color: #a07d41;
-	font-weight: 200;
-	font-family: Consolas,Arial, sans-serif;
-	text-indent: 30px;
-	padding: 36px;
+	padding: 10% 0 ;
 }
-.msg  span {
-	background:#ffa200;
+.about p{
+	
+	width: 50%;
+	margin: 0 auto;
+	font-size: 18px;
 	color: black;
-	font-style: none;
+	font-family: Consolas,Arial, sans-serif;
+	padding: 30px 50px 30px 30px;
+	margin-right: 1px;
+
 }
+h3{
+	margin: 0 auto;
+	font-family: Consolas,Arial, sans-serif;
+	font-size: 30px;
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+	text-transform: capitalize;
+	border-bottom: 5px solid black;
+}
+
 /*...............................................
 CONTACT PAGE
 ...............................................*/
 .contact{
-	padding-top: 10px;
-	text-align: center;
-	background: rgba(0,0,0,0.6);
-}
-.contact p{
-	width: 60%;
+	width: 100%;
 	margin: 0 auto;
-	font-size: 30px;
-	color: #a07d41;
-	font-weight: 200;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	font-family: Consolas,Arial, sans-serif;
-	text-transform: capitalize;
-	line-height: 40px;
-}
-.contact p a{
-	font-size: 30px;
-	border: 2px solid gold;
-	text-decoration:none;
-	border-radius: 5px;
-	background:#ffa200;
-	color: black;
+	background: rgba(0, 0, 0, 0.8);
+	padding-bottom: 51%;
+	box-shadow: 1px 0px 10px black;
 
 }
-.contact p a:hover{
-	box-shadow:inset 2px 2px 20px black;
+.contact-area{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0 0 20px ;
+
+/*..................................................
+FORM
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 }
-.contact span {
+.form-area{
+	width: 50%;
+	float: left;
+	padding-bottom: 20px;
+	background:rgba(30, 29, 12, 0.6);
+	box-shadow: 1px 0px 3px black;
+	margin-top: 60px;
+
+}
+h4{
+	font-size: 30px;
+	padding: 20px;
+	margin: 0;
+	color: #ffa200;
+}
+.form-group{
+	font-size: 50px;
+	margin-left: 20px;
+
+}
+.form-group input{
+	width: 427px;
+	height: 40px;
+}
+.form-control{
+	width: 427px;
+	height: 171px;
+}
+form a{
+	margin-left: 20px;
+	font-size: 20px;
+	padding: 5px 5px;
+	border: 2px solid black;
+	text-decoration:none;
+	border-radius: 1px;
+	display: inline-block;
+	margin-top:10px;
 	background:#ffa200;
 	color: black;
-	font-style: none;
+	cursor: pointer;
+
 }
+form a:hover{
+	box-shadow:inset 2px 2px 5px black;
+}
+.form-group textarea{
+	margin-top: 20px;
+}
+
+/*.......................................................
+OTHER CONTACTS
+........................................................*/
+.contacts{
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+	margin-top: 60px;
+
+	
+}
+.info {
+	width: 50%;
+	margin: 0 auto;
+	background:rgba(30, 29, 12, 0.6);
+	box-shadow: 1px 0px 3px black;
+	padding: 0 55px 30px 0 ;
+	margin-top: 20px;
+	
+}
+.info p{
+	font-size: 20px;
+	margin-left: 15px;
+	line-height: -20%;
+	font-weight: 800;
+	color: white;
+}
+
 /*...............................................
 FOOTER 
 ...............................................*/
 footer{
 	text-align: center;
 	background:#ffa200;
+	padding: 50px;
+	clear: both;
+	box-shadow: 1px 0px 10px black;
 
 }
 footer small{
 	font-size: 15px;
 	color: black;
 	letter-spacing: 2px;
+	padding: 10px;
+	font-weight: 600;
+
 }
+.footer-social{
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+.footer-social a{
+	color:rgba(0, 0, 0, 0.8);
+}
+.footer-social a:hover{
+	color: white;
+}
+
 
