@@ -2,10 +2,6 @@
 RESET
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-@font-face {
-  font-family: "Intro";
-  src: local("Intro"), url("Intro.otf") format("otf");
-}
 ol,ul,li{
 	list-style: none;
 }
@@ -32,7 +28,6 @@ html, body {
 }
 .pro-wrap{
 	width: 100%;
-	float: right;
 	background: #fff;
 }
 /*.......................................
@@ -50,7 +45,7 @@ NAV
 	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
-	padding: 0;  
+	padding: 0 0 10px 0;  
 }
 .navigator li {
 	display: inline-block;
@@ -88,19 +83,17 @@ color: #3f4042 /*#0b050f*/;
 .start h1{
 	font-size: 50px;
 	color:white;
-	font-family: "Intro",Constantia,"Blood Omen",Arial, sans-serif;
+	font-family: 'Crete Round',Constantia,"Blood Omen",Arial, sans-serif;
 	margin-top: 45%;
 	text-shadow:1px 2px 3px black;
 }
 .start h2{
-	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
+	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 40px;
 	line-height: 60px;
-	text-transform: capitalize;
 	color: #ffa200;
 	text-align:left;
-	margin-left: 19%;
-	margin-bottom: 20px;
+	margin-left: 20%;
 	text-shadow:1px 2px 3px black;
 }
 /*..............................................
@@ -153,13 +146,14 @@ ABOUT
 
 h3{
 	margin: 0 auto;
-	font-family: "Intro" ,Consolas,Arial, sans-serif;
+	font-family: 'Crete Round',Consolas,Arial, sans-serif;
 	font-size: 25px;
 	display: inline-block;
 	float: left;
 	margin-top: 3%;
 	text-transform: capitalize;
 	padding: 20px;
+	font-variant: petite-caps;
 }
 /*
 ..........................................................
@@ -172,12 +166,10 @@ PROJECTS
 	border-radius: 0 100px 100px 0;
 }
 .pros{
-	/*width: 100%;*/
 	font-size: 100px;
 	color: #ffa200;
 	font-size: 20px;
 	line-height: 30px;
-	font-family:Intro,Constantia,"Blood Omen",Arial, sans-serif;
 	margin-left: 2%;
 	color: #0b050f;
 	padding-bottom: 30%;
@@ -186,7 +178,7 @@ PROJECTS
 .pros h2{
 	width: 3%;
 	margin: 0 auto;
-	font-family: Intro ,Consolas,Arial, sans-serif;
+	font-family: 'Crete Round',Consolas,Arial, sans-serif;
 	font-size: 25px;
 	display: inline-block;
 	float: left;
@@ -219,7 +211,6 @@ CONTACT PAGE
 .contact-area{
 	width: 80%;
 	margin: 0 auto;
-	padding: 20px 0 0 20px ;
 }
 
 /*..................................................
@@ -231,13 +222,9 @@ FORM
 	float: left;
 	padding-bottom: 20px;
 	background:#0b050f;
-	/*box-shadow: 1px 0px 3px black;*/
 	margin-top: 60px;
 	border-radius:  20px 0 0 0;
-	clear: right;
 	margin-bottom: 40px;
-	
-
 }
 h4{
 	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
