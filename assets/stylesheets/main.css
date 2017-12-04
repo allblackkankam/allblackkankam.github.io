@@ -1,6 +1,11 @@
 /*...........................................
 RESET
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+@font-face {
+  font-family: "Intro";
+  src: local("Intro"), url("Intro.otf") format("otf");
+}
 ol,ul,li{
 	list-style: none;
 }
@@ -36,18 +41,15 @@ NAV
 .navigator{
 	background: #ffa200;
 	text-align: right;
-	padding-right: 10%;
 	box-shadow: 1px 0px 10px black;
 	position: fixed;
-	width: 90%;
-	clear: left;
+	width: 100%;
 	border-bottom-left-radius: 50px;
 }
 .navigator ul {
 	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
-	/*margin-right: 8%;*/
 	padding: 0;  
 }
 .navigator li {
@@ -86,7 +88,7 @@ color: #3f4042 /*#0b050f*/;
 .start h1{
 	font-size: 50px;
 	color:white;
-	font-family: Intro,Constantia,"Blood Omen",Arial, sans-serif;
+	font-family: "Intro",Constantia,"Blood Omen",Arial, sans-serif;
 	margin-top: 45%;
 	text-shadow:1px 2px 3px black;
 }
@@ -151,7 +153,7 @@ ABOUT
 
 h3{
 	margin: 0 auto;
-	font-family: Intro ,Consolas,Arial, sans-serif;
+	font-family: "Intro" ,Consolas,Arial, sans-serif;
 	font-size: 25px;
 	display: inline-block;
 	float: left;
