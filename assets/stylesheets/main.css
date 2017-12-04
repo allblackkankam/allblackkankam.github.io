@@ -19,6 +19,17 @@ html, body {
 	background: #fff;
 	
 }
+.side{
+	width: 100%;
+	height: 100%;
+	background: #0b050f;
+
+}
+.pro-wrap{
+	width: 100%;
+	float: right;
+	background: #fff;
+}
 /*.......................................
 NAV
 .........................................*/
@@ -26,21 +37,18 @@ NAV
 	background: #ffa200;
 	text-align: right;
 	padding-right: 10%;
-	padding-bottom: 20px;
 	box-shadow: 1px 0px 10px black;
 	position: fixed;
-	width: 100%;
-
+	width: 90%;
+	clear: left;
+	border-bottom-left-radius: 50px;
 }
 .navigator ul {
-	
-	font: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 20px;
-	font-weight: 900;
-	margin-right: 8%;
+	font-weight: 600;
+	/*margin-right: 8%;*/
 	padding: 0;  
-	
-
 }
 .navigator li {
 	display: inline-block;
@@ -48,17 +56,19 @@ NAV
 }
 .navigator a {  
 color:rgba(0, 0, 0, 0.8); 
-padding: 12px 20px;
+padding: 12px 10px;
 padding-bottom: 40px;
+font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
+
 }
 .navigator a:hover {  
-color: white;  
+color: #3f4042 /*#0b050f*/;  
 /*.......................................
 	START SECTION
 ......................................*/
 }
 .hero{
-	background-image:url(img/p.jpg);
+	background-image:url(../img/p.jpg);
 	height: 100%;
     background-attachment: top-fixed;
     background-position: center;
@@ -66,7 +76,7 @@ color: white;
     background-size: cover;
     width: 100%;
     padding-bottom: 2%;
-    box-shadow: 2px 10px 10px #de9d9d;
+    border-radius: 0 0 100px;
 }
 .start{
 	padding-top: 10px;
@@ -76,11 +86,12 @@ color: white;
 .start h1{
 	font-size: 50px;
 	color:white;
-	font-family: Constantia,"Blood Omen",Arial, sans-serif;
+	font-family: Intro,Constantia,"Blood Omen",Arial, sans-serif;
 	margin-top: 45%;
 	text-shadow:1px 2px 3px black;
 }
 .start h2{
+	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 40px;
 	line-height: 60px;
 	text-transform: capitalize;
@@ -94,7 +105,6 @@ color: white;
 SOCIAL SECTION
 ..............................................*/
 .social{
-	text-align: left;
 	width: 60%;
 	padding: 15px 0;
 	margin-left: 11%;
@@ -108,74 +118,127 @@ SOCIAL SECTION
 }
 .social a :hover{
 	color:#ffa200;
+
 }
 /*...............................................
 ABOUT
 ..............................................*/
 
-.msg{
+.mgs{
 	padding-top: 5%;
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
+	border-radius: 100px 0 0 100px;
+	background: #fff;
 }
 .about{
 	width: 80%;
 	margin: 0 auto;
-	padding: 10% 0 ;
 }
 .about p{
-	
 	width: 50%;
 	margin: 0 auto;
 	font-size: 18px;
 	color: black;
-	font-family: Consolas,Arial, sans-serif;
-	padding: 30px 50px 30px 30px;
+	font-family: 'Adobe Fangsong Std',Consolas,Arial, sans-serif;
+	padding: 0px 50px 30px 30px;
 	margin-right: 1px;
-
 }
+.about p:hover{
+	font-size: 20px;
+}
+
 h3{
 	margin: 0 auto;
-	font-family: Consolas,Arial, sans-serif;
-	font-size: 30px;
+	font-family: Intro ,Consolas,Arial, sans-serif;
+	font-size: 25px;
 	display: inline-block;
 	float: left;
-	margin-top: 5%;
+	margin-top: 3%;
 	text-transform: capitalize;
-	border-bottom: 5px solid black;
+	padding: 20px;
 }
+/*
+..........................................................
+PROJECTS
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.projects{
+	width: 90%;
 
+	background: #0b050f;	
+	border-radius: 0 100px 100px 0;
+}
+.pros{
+	/*width: 100%;*/
+	font-size: 100px;
+	color: #ffa200;
+	font-size: 20px;
+	line-height: 30px;
+	font-family:Intro,Constantia,"Blood Omen",Arial, sans-serif;
+	margin-left: 2%;
+	color: #0b050f;
+	padding-bottom: 30%;
+	
+}
+.pros h2{
+	width: 3%;
+	margin: 0 auto;
+	font-family: Intro ,Consolas,Arial, sans-serif;
+	font-size: 25px;
+	display: inline-block;
+	float: left;
+	margin-top: 3%;
+	text-transform: capitalize;
+	padding: 20px;
+	background: #ffa200;
+}
+.pros a {
+	margin: 0 auto;
+	padding: 50px 20px ;
+	float: left;
+	margin-top: 5%;
+}
+.pros a:hover{
+	border-top: 1px solid #ffa200;
+}
 /*...............................................
 CONTACT PAGE
 ...............................................*/
 .contact{
 	width: 100%;
 	margin: 0 auto;
-	background: rgba(0, 0, 0, 0.8);
-	padding-bottom: 51%;
-	box-shadow: 1px 0px 10px black;
+	padding-bottom: 50%;
+	border-top-left-radius: 100px;
+	clear: both;
+	background: #fff;
 
 }
 .contact-area{
 	width: 80%;
 	margin: 0 auto;
 	padding: 20px 0 0 20px ;
+}
 
 /*..................................................
 FORM
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-}
+
 .form-area{
 	width: 50%;
 	float: left;
 	padding-bottom: 20px;
-	background:rgba(30, 29, 12, 0.6);
-	box-shadow: 1px 0px 3px black;
+	background:#0b050f;
+	/*box-shadow: 1px 0px 3px black;*/
 	margin-top: 60px;
+	border-radius:  20px 0 0 0;
+	clear: right;
+	margin-bottom: 40px;
+	
 
 }
 h4{
+	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 30px;
 	padding: 20px;
 	margin: 0;
@@ -229,13 +292,14 @@ OTHER CONTACTS
 .info {
 	width: 50%;
 	margin: 0 auto;
-	background:rgba(30, 29, 12, 0.6);
-	box-shadow: 1px 0px 3px black;
+	background:#0b050f;
+	/*box-shadow: 1px 0px 3px black;*/
 	padding: 0 55px 30px 0 ;
 	margin-top: 20px;
 	
 }
 .info p{
+	font-family: 'Adobe Fangsong Std',Consolas,Arial, sans-serif;
 	font-size: 20px;
 	margin-left: 15px;
 	line-height: -20%;
@@ -252,11 +316,13 @@ footer{
 	padding: 50px;
 	clear: both;
 	box-shadow: 1px 0px 10px black;
+	border-top-right-radius: 70px;
 
 }
 footer small{
+	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 15px;
-	color: black;
+	color: #0b050f;;
 	letter-spacing: 2px;
 	padding: 10px;
 	font-weight: 600;
@@ -267,7 +333,7 @@ footer small{
 	letter-spacing: 10px;
 }
 .footer-social a{
-	color:rgba(0, 0, 0, 0.8);
+	color:#0b050f;);
 }
 .footer-social a:hover{
 	color: white;
