@@ -23,7 +23,7 @@ html, body {
 .side{
 	width: 100%;
 	height: 100%;
-	background: #0b050f;
+	background: #06050b;
 
 }
 .pro-wrap{
@@ -90,11 +90,9 @@ color: #3f4042 /*#0b050f*/;
 .start h2{
 	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 40px;
-	line-height: 60px;
 	color: #ffa200;
-	text-align:left;
-	margin-left: 20%;
 	text-shadow:1px 2px 3px black;
+	padding-right: 80px;
 }
 /*..............................................
 SOCIAL SECTION
@@ -145,15 +143,12 @@ ABOUT
 }
 
 h3{
-	margin: 0 auto;
 	font-family: 'Crete Round',Consolas,Arial, sans-serif;
 	font-size: 25px;
-	display: inline-block;
 	float: left;
 	margin-top: 3%;
-	text-transform: capitalize;
 	padding: 20px;
-	font-variant: petite-caps;
+	font-variant: small-caps;
 }
 /*
 ..........................................................
@@ -161,8 +156,7 @@ PROJECTS
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .projects{
 	width: 90%;
-
-	background: #0b050f;	
+	background: #06050b;	
 	border-radius: 0 100px 100px 0;
 }
 .pros{
@@ -218,13 +212,11 @@ FORM
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .form-area{
-	width: 50%;
 	float: left;
 	padding-bottom: 20px;
-	background:#0b050f;
+	background:#06050b;
 	margin-top: 60px;
 	border-radius:  20px 0 0 0;
-	margin-bottom: 40px;
 }
 h4{
 	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
@@ -234,8 +226,7 @@ h4{
 	color: #ffa200;
 }
 .form-group{
-	font-size: 50px;
-	margin-left: 20px;
+	margin: 20px;
 
 }
 .form-group input{
@@ -281,8 +272,7 @@ OTHER CONTACTS
 .info {
 	width: 50%;
 	margin: 0 auto;
-	background:#0b050f;
-	/*box-shadow: 1px 0px 3px black;*/
+	background:#06050b;
 	padding: 0 55px 30px 0 ;
 	margin-top: 20px;
 	
@@ -304,7 +294,7 @@ footer{
 	background:#ffa200;
 	padding: 50px;
 	clear: both;
-	box-shadow: 1px 0px 10px black;
+	/*box-shadow: 1px 0px 10px black;*/
 	border-top-right-radius: 70px;
 
 }
