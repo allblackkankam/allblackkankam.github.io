@@ -59,7 +59,7 @@ font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 
 }
 .navigator a:hover {  
-color: #3f4042 /*#0b050f*/;  
+color: #3f4042 ;  
 /*.......................................
 	START SECTION
 ......................................*/
@@ -164,7 +164,6 @@ PROJECTS
 	color: #ffa200;
 	font-size: 20px;
 	line-height: 30px;
-	margin-left: 2%;
 	color: #0b050f;
 	padding-bottom: 30%;
 	
