@@ -143,12 +143,13 @@ ABOUT
 }
 
 h3{
-	font-family: 'Crete Round',Consolas,Arial, sans-serif;
+	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
 	font-size: 25px;
 	float: left;
 	margin-top: 3%;
 	padding: 20px;
 	font-variant: small-caps;
+	font-weight: inherit;
 }
 /*
 ..........................................................
@@ -186,11 +187,33 @@ PROJECTS
 	float: left;
 	margin-top: 5%;
 }
-.pros a:hover{
+/*.pros a:hover{
 	border-top: 1px solid #ffa200;
+}*/
+/*....................................................
+PROJECTS PAGES
+....................................................*/
+.pro-page{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}.pro-page h1{
+	font-size: 40px;
+	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
+	padding: 20px;
 }
+.pro-page p{
+	font-family: 'Adobe Fangsong Std',Consolas,Arial, sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+.pro-page img{
+	width: 90%;
+	margin: 0 auto;
+}
+
 /*...............................................
-CONTACT PAGE
+CONTACT 
 ...............................................*/
 .contact{
 	width: 100%;
@@ -216,7 +239,6 @@ FORM
 	background:#06050b;
 	margin-top: 60px;
 	border-radius:  20px 0 0 0;
-	width:45%;
 }
 h4{
 	font-family:Roboto,Constantia,"Blood Omen",Arial, sans-serif;
@@ -266,6 +288,7 @@ OTHER CONTACTS
 	margin: 0 auto;
 	float: left;
 	margin-top: 60px;
+	margin-left: 2%;
 
 	
 }
@@ -275,6 +298,7 @@ OTHER CONTACTS
 	background:#06050b;
 	padding: 0 55px 30px 0 ;
 	margin-top: 20px;
+
 	
 }
 .info p{
