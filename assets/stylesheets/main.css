@@ -100,7 +100,7 @@ SOCIAL SECTION
 .social{
 	width: 60%;
 	padding: 15px 0;
-	margin-left: 11%;
+	margin-left:9%;
 	margin-bottom: 5%;
 }
 .social a {
@@ -354,8 +354,7 @@ footer small{
 	color: white;
 }
 
-@media only screen and (min-width: 150px) and (max-width: 600px)
-{
+@media(max-width:765px){
 	.navigator{
 	text-align: center;
 
