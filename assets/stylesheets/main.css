@@ -130,19 +130,18 @@ ABOUT
 	margin: 0 auto;
 }
 .about p{
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	font-family: 'Adobe Fangsong Std',Consolas,Arial, sans-serif;
 	padding: 0px 50px 30px 30px;
 	margin-right: 1px;
 }
 
-h3{
+span{
 	font-family: Roboto,Constantia,"Blood Omen",Arial, sans-serif;
-	font-size: 25px;
-	float: left;
+	font-size: 30px;
 	margin-top: 3%;
 	padding: 20px;
 	font-variant: small-caps;
@@ -299,20 +298,18 @@ form a:hover{
 OTHER CONTACTS
 ........................................................*/
 .contacts{
-	width: 50%;
-	margin: 0 auto;
+	width: 43.5%;
 	float: left;
 	margin-top: 60px;
-	margin-left: 2%;
 
 	
 }
 .info {
-	width: 50%;
-	margin: 0 auto;
+	width: 43.5;
 	background:#06050b;
 	padding: 0 55px 30px 0 ;
 	margin-top: 20px;
+	margin-bottom: 10%;
 
 	
 }
@@ -357,4 +354,58 @@ footer small{
 	color: white;
 }
 
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.navigator{
+	text-align: center;
 
+	}
+	.start h1{
+	font-size: 20px;
+	
+	}
+	.start h2{
+	font-size: 20px;
+	color: #ffa200;
+	padding:0px;
+}
+.social {
+	margin-left: 6%;
+	padding: 10px 0;
+}
+.social a {
+	color: white;
+	font-size: 20px;
+	padding: 1px;
+	text-shadow:1px 2px 3px black;
+	}
+	span{
+	font-size: 20px;
+	}
+	.about p{
+	font-size: 15px;
+	
+}
+.pros h2{
+	width: 24%;
+}
+.pros img{
+	width: 100px;
+}
+.form-group {
+    margin: 9px;
+}
+.form-group input {
+    width: 437px;
+    height: 30px;
+}
+.info{
+	width: 200%;
+}
+
+	
+	
+
+
+
+}
